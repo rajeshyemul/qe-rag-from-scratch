@@ -1,5 +1,11 @@
 # QE Knowledge Assistant
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![RAG](https://img.shields.io/badge/RAG-From%20Scratch-0F766E)](#architecture)
+[![Vector Store](https://img.shields.io/badge/Vector%20Store-FAISS-1565C0)](https://github.com/facebookresearch/faiss)
+[![LLM](https://img.shields.io/badge/LLM-Ollama%20Local-111111?logo=ollama&logoColor=white)](https://ollama.com/)
+[![Status](https://img.shields.io/badge/Status-Part%201%20Complete-2E7D32)](#part-1-completion-criteria)
+
 A small, standalone Retrieval-Augmented Generation (RAG) system for quality-engineering documentation. It is designed to make the RAG mechanics visible: documents are loaded, chunked, embedded, indexed with FAISS, retrieved for a question, and supplied as evidence to a local Ollama model.
 
 This is Part 1 of a larger learning path. It intentionally does not include agents, LangChain, MCP, hybrid search, reranking, or a production vector database.
