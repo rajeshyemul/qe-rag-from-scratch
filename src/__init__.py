@@ -1,0 +1,1 @@
+"""QE Knowledge Assistant package."""
